@@ -1,37 +1,30 @@
 export class BallBase {
-  // class Car {
   //field
-  engine: string;
-  engine1: string;
+  bSize: number;
+  bDynmesh: number;
 
   //constructor
-  constructor(engine: string, engine1: string) {
-    this.engine = engine;
-    this.engine1 = engine1;
-
+  constructor(bSize: number, bDynmesh: number) {
+    this.bSize = bSize;
+    this.bDynmesh = bDynmesh;
   }
 
   //function
-  disp(): void {
-    console.log('Function displays Engine is  :   ' + this.engine);
-    console.log('Function displays Engine is  :   ' + this.engine1);
+  handBall(): void {
+    console.log('Ball Size :   ' + this.bSize);
+    console.log('Ball Dynmesh  :   ' + this.bDynmesh);
   }
-  //  }
 
-  ball() {
-    var ball = {
-      bSize: 8,
-      bDynmesh: 15,
-    };
-    console.log(ball.bSize);
-    console.log(ball.bDynmesh);
+  footBall(): void {
+    console.log('Ball Size :   ' + this.bSize);
+    console.log('Ball Dynmesh  :   ' + this.bDynmesh);
   }
 }
 
-let obj = new BallBase('XXSY1', 'psjdfvkj');
+// let obj = new BallBase('XXSY1', 'psjdfvkj');
 
-//access the field
-console.log('Reading attribute value Engine as :  ' + obj.engine);
+// //access the field
+// console.log('Reading attribute value Engine as :  ' + obj.engine);
 
-//access the function
-obj.disp();
+// //access the function
+// obj.disp();

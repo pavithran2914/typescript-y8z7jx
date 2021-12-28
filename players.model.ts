@@ -1,11 +1,27 @@
 export class Players {
-  playerData() {
-    
-    let playerList = {
-      id: '',
-      name: '',
-      positions: '',
-    };
+  //field
+  playerNo: number;
+  name: string;
+  positions: string;
+
+  //constructor
+  constructor(playerNo: number, name: string, positions: string) {
+    this.playerNo = playerNo;
+    this.name = name;
+    this.positions = positions;
+  }
+
+  //function
+  handGround(): void {
+    console.log('Player No :   ' + this.playerNo);
+    console.log('Player Name  :   ' + this.name);
+    console.log('Player Position  :   ' + this.positions);
+  }
+
+  footGround(): void {
+    console.log('Player No  :   ' + this.playerNo);
+    console.log('Player Name  :   ' + this.name);
+    console.log('Player Position   :   ' + this.positions);
   }
 }
 // player_data(1, 'John', 'Goal kipper');

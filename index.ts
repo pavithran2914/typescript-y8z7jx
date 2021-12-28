@@ -8,12 +8,12 @@ import { Players } from './players.model';
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
-let obj = new BallBase();
-obj.ball();
+// let obj = new BallBase();
+// obj.ball();
 
-let obj1 = new PlayGroundBase();
-obj1.ground();
+// let obj1 = new PlayGroundBase();
+// obj1.ground();
 
-let obj2 = new Players();
+// let obj2 = new Players();
 
 //create an object 
