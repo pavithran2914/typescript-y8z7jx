@@ -12,13 +12,13 @@ export class Players {
   }
 
   //function
-  handGround(): void {
+  handBallPlayers(): void {
     console.log('Player No :   ' + this.playerNo);
     console.log('Player Name  :   ' + this.name);
     console.log('Player Position  :   ' + this.positions);
   }
 
-  footGround(): void {
+  footBallPlayers(): void {
     console.log('Player No  :   ' + this.playerNo);
     console.log('Player Name  :   ' + this.name);
     console.log('Player Position   :   ' + this.positions);
