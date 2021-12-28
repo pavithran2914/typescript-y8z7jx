@@ -17,3 +17,9 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 // let obj2 = new Players();
 
 //create an object 
+
+let handBallObj = new BallBase(5674, 598, 'handBall');
+handBallObj.ballInfo();
+
+let footBallObj = new BallBase(5674, 598, 'footBall');
+footBallObj.ballInfo();
