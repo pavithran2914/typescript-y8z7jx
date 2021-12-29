@@ -1,6 +1,8 @@
 // Import stylesheets
 import './style.css';
 import { BallBase } from './ball-base.model';
+import { HandBall } from './ball-base.model';
+import { FootBall } from './ball-base.model';
 import { PlayGroundBase } from './play-ground-base.model';
 import { Players } from './players.model';
 
@@ -18,8 +20,10 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
 //create an object 
 
-let handBallObj = new BallBase(5674, 598, 'handBall');
+let handBallObj = new HandBall(5674, 598, 'handBall');
 handBallObj.ballInfo();
+handBallObj.hballMaterial();
 
-let footBallObj = new BallBase(5674, 598, 'footBall');
+let footBallObj = new FootBall(54, 98, 'footBall');
 footBallObj.ballInfo();
+footBallObj.ballMaterial();

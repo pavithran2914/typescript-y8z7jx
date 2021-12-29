@@ -18,3 +18,15 @@ export class BallBase {
     console.log('Ball Type : ' +  this.type);
   }
 }
+
+export class HandBall extends BallBase {
+  hballMaterial(): void{
+    console.log("A Material Ball is leather or a synthetic material");
+  }
+}
+
+export class FootBall extends BallBase {
+  ballMaterial(): void{
+    console.log("A Material Ball is brown leather material");
+  }
+}
